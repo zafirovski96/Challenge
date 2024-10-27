@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;;
+}
+
+/* this is styling for the landing page */
+
+h1 {
+    color: #FFF;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+p {
+    font-size: 20px;
+}
+h2 {
+    padding-bottom: 20px;
+}
+
+.main-button {
+    background-color: rgb(230, 118, 98);
+    color: #FFF;
+    border: 1px solid rgb(230, 118, 98);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.main-button:hover {
+    background-color: #fff;
+    color: #ff6347 ;
+    border: 1px solid  #ff6347;
+    transition: 0.3s ease-in-out;
+  }
+.main-wrapper{
+    padding: 100px;
+    padding-bottom: 0px;
+}
+
+.landing {
+    background: url(/public/11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 25px;
+    
+}
+
+.inner-wrap{
+    position: relative;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    padding-bottom: 50px;
+     
+}
+.about-p {
+    padding-bottom: 10px;  
+}
+
+.classes {
+    padding-bottom: 50px;
+    background-color: rgb(224, 224, 224); 
+    margin-left: -100px;
+    margin-right: -100px;
+    padding: 50px 100px ;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+  
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.image-container {
+    position: relative;
+}
+  
+.discount-badge {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background-color: #FFF ;
+    color: #ff6347;
+    padding: 20px 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    z-index: 2;
+}
+  
+.card-image {
+    width: calc(100% - 20px);
+    margin: 10px;
+    border-radius: 4px;
+    display: block;
+ }
+  
+.card-description {
+    font-size: 1em;
+}
+.schedule {
+    padding: 50px 0px;
+}
+.class-schedule  {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.class-schedule th, .class-schedule td {
+    padding: 10px;
+    text-align: left;
+}
+  
+.class-schedule tr {
+    border-bottom: 1px solid #202020; /* Horizontal line only */
+}
+.class-schedule th {
+    font-weight: bold;
+    color: #333;
+}
+.Contact {
+    background-color: rgb(224, 224, 224); 
+    margin-left: -100px;
+    margin-right: -100px;
+    padding: 100px;
+}
+
+.form-wrapper {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    border-radius: 8px; /* Optional: rounded corners */
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .form-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-wrapper input[type="text"],
+  .form-wrapper input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff6347;
+    color: #fff;
+  }
